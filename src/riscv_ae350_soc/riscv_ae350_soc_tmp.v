@@ -5,7 +5,7 @@
 //Part Number: GW5AST-LV138PG484AC2/I1
 //Device: GW5AST-138
 //Device Version: B
-//Created Time: Tue Jan 28 12:55:24 2025
+//Created Time: Wed Jan 29 23:40:55 2025
 
 //Change the instance name and port connections to the signal names
 //--------Copy here to design--------
@@ -44,6 +44,16 @@
 		.TDI_IN(TDI_IN_i), //input TDI_IN
 		.TDO_OUT(TDO_OUT_o), //output TDO_OUT
 		.TDO_OE(TDO_OE_o), //output TDO_OE
+		.UART2_TXD(UART2_TXD_o), //output UART2_TXD
+		.UART2_RTSN(UART2_RTSN_o), //output UART2_RTSN
+		.UART2_RXD(UART2_RXD_i), //input UART2_RXD
+		.UART2_CTSN(UART2_CTSN_i), //input UART2_CTSN
+		.UART2_DCDN(UART2_DCDN_i), //input UART2_DCDN
+		.UART2_DSRN(UART2_DSRN_i), //input UART2_DSRN
+		.UART2_RIN(UART2_RIN_i), //input UART2_RIN
+		.UART2_DTRN(UART2_DTRN_o), //output UART2_DTRN
+		.UART2_OUT1N(UART2_OUT1N_o), //output UART2_OUT1N
+		.UART2_OUT2N(UART2_OUT2N_o), //output UART2_OUT2N
 		.CORE_CLK(CORE_CLK_i), //input CORE_CLK
 		.DDR_CLK(DDR_CLK_i), //input DDR_CLK
 		.AHB_CLK(AHB_CLK_i), //input AHB_CLK
