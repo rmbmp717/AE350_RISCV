@@ -6,6 +6,8 @@
     <Device name="GW5AST-138B" pn="GW5AST-LV138PG484AC2/I1">gw5ast138b-010</Device>
     <FileList>
         <File path="src/ae350_customized_demo.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/Gowin_PLL_AE350.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/Gowin_PLL_DDR3.v" type="file.verilog" enable="1"/>
         <File path="src/riscv_ae350_soc/riscv_ae350_soc.v" type="file.verilog" enable="1"/>
         <File path="src/ae350_customized_demo.cst" type="file.cst" enable="1"/>
     </FileList>
